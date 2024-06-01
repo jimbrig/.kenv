@@ -71,7 +71,6 @@ npm i --save @metascraper/helpers @sindresorhus/slugify @svgr/core @svgr/plugin-
 > The `@johnlindquist/kit` dev-dependency will already be installed and declared in the `package.json` file.
 > However, you can alter the `package.json` to link to `file:../.kit` if you want to use a local version of the kit package.
 
-- `@kentcdobbs/md-temp`
 - `@types/imagemin`
 - `@types/imagemin-gifsicle`
 - `@types/imagemin-jpegtran`
@@ -82,17 +81,20 @@ npm i --save @metascraper/helpers @sindresorhus/slugify @svgr/core @svgr/plugin-
 - `globby`
 - `rimraf`
 - `rehype-stringify`
-- `rehype-parse`
-- `rehype-rehype`
+- `remark-parse`
+- `remark-rehype`
 - `shiki`
 - `unified`
 
+
+- `@kentcdobbs/md-temp`
 - `imagemin-cli`
+
 
 Command:
 
 ```shell
-npm i --save-dev @kentcdobbs/md-temp @types/imagemin @types/imagemin-gifsicle @types/imagemin-jpegtran @types/imagemin-svgo @types/shell-quote @types/svg-parser execa globby rimraf rehype-stringify rehype-parse rehype-rehype shiki unified
+npm i --save-dev @types/imagemin @types/imagemin-gifsicle @types/imagemin-jpegtran @types/imagemin-svgo @types/shell-quote @types/svg-parser execa globby rimraf rehype-stringify remark-parse remark-rehype shiki unified
 ```
 
 JSON:

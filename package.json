@@ -1,0 +1,56 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@metascraper/helpers": "^5.45.9",
+    "@sindresorhus/slugify": "^2.2.1",
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-svgo": "^8.1.0",
+    "ansi-to-html": "^0.7.2",
+    "bytes-formatter": "^21.6.12",
+    "date-fns": "^3.6.0",
+    "dist-exiftool": "^10.53.0",
+    "filenamify": "^6.0.0",
+    "imagemin": "^9.0.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpeg-recompress": "^7.1.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-svgo": "^11.0.0",
+    "md5-hex": "^5.0.0",
+    "metascraper": "^5.45.9",
+    "node-exiftool": "^2.3.0",
+    "prettier": "^3.3.0",
+    "project-name-generator": "^2.1.9",
+    "shell-quote": "^1.8.1",
+    "svg-parser": "^2.0.4",
+    "unused-filename": "^4.0.1",
+    "yaml": "^2.4.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@johnlindquist/kit": "file:../.kit",
+    "@types/imagemin": "^8.0.5",
+    "@types/imagemin-gifsicle": "^7.0.4",
+    "@types/imagemin-jpegtran": "^5.0.4",
+    "@types/imagemin-svgo": "^10.0.5",
+    "@types/shell-quote": "^1.7.5",
+    "@types/svg-parser": "^2.0.6",
+    "execa": "^9.1.0",
+    "get-app-icon": "^1.0.1",
+    "globby": "^14.0.1",
+    "rehype-stringify": "^10.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.0",
+    "rimraf": "^5.0.7",
+    "shiki": "^1.6.1",
+    "unified": "^11.0.4"
+  },
+  "eslintIgnore": [
+    "**/*.*"
+  ],
+  "engines": {
+    "node": "18.18.2",
+    "npm": "9.8.1"
+  }
+}
